@@ -1,0 +1,137 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=35;
+	taxlabels
+	'ACJ12043.1_Bulbul_coronavirus_HKU11-796_Chinese_bulbul'[&!color=#000000]
+	'AFD29216.1_Magpie-robin_coronavirus_HKU18_magpie-robin'
+	'AFS88944.1_Human_betacoronavirus_2c_EMC_2012_Homo_sapiens'
+	'AGT28262.1_Betacoronavirus_Erinaceus_VMC_DEU_2012_Erinaceus_europaeus'
+	'AIB07806.1_Deltacoronavirus_PDCoV_USA_Ohio137_2014_swine'[&!color=#000000]
+	'AKF17722.1_Duck_coronavirus_DK_GD_27_2014_duck'
+	'AKG92638.1_Ferret_coronavirus_Mustela_putorius__ferret_'
+	'AOI28289.1_Camel_alphacoronavirus_Camel229E_Camelus_dromedarius'
+	'AQY55874.1_Infectious_bronchitis_virus_Gallus_gallus'
+	'AWH65930.1_Pipistrellus_bat_coronavirus_HKU5_'
+	'AWK59978.1_Human_coronavirus_NL63_Homo_sapiens'
+	'AXP20280.1_Quail_deltacoronavirus_Coturnix_japonica'
+	'BAY00729.1_Coronavirus_HKU15_Sus_scrofa_domesticus'
+	'BBC54821.1_Falcon_coronavirus_UAE-HKU27_Falco_sp.'
+	'BBC54831.1_Houbara_coronavirus_UAE-HKU28_Chlamydotis_sp.__Houbara_'[&!color=#000000]
+	'BBC54841.1_Pigeon_coronavirus_UAE-HKU29_Columbidae_sp.__Pigeon_'
+	'QII89046.1_Bottlenose_dolphin_coronavirus_bottlenose_dolphin'
+	'QVT76605.1_Pangolin_coronavirus_pangolin'
+	'QWX20056.1_Porcine_deltacoronavirus_swine'[&!color=#000000]
+	TRINITY_Gentoo_Penguin_Virus_replicase_polyprotein[&!color=#ff0000,!name="TRINITY    Gentoo Penguin Virus"]
+	TRINITY_White-Eye_coronavirus_HKU16_ORF1ab_polyprotein[&!color=#ff0000,!name="TRINITY   White-Eye Coronavirus HKU16"]
+	'ULR56676.1_Bat_alphacoronavirus_Miniopterus_fuliginosus'
+	'UUT43978.1_Canine_coronavirus_Canis_lupus_familiaris'
+	'UZT75405.1_Bovine_coronavirus_Dairy_Calves'
+	'WBY50244.1_Middle_East_respiratory_syndrome-related_coronavirus_Camelus_dromedarius'
+	'WGD01461.1_Porcine_epidemic_diarrhea_virus_Sus_scrofa'
+	'WKW84054.1_Swan_goose_coronavirus_swan_goose'
+	'WOR09765.1_Chinese_pond_heron_coronavirus_XN11_Chinese_Pond-Heron'[&!color=#000000]
+	'YP_001876435.1_Beluga_whale_coronavirus_SW1_Delphinapterus_leucas__beluga_whale_'
+	'YP_001941164.2_Turkey_coronavirus_turkey'
+	'YP_005352837.1_White-eye_coronavirus_HKU16_white-eye'[&!color=#000000]
+	'YP_005352845.1_Sparrow_coronavirus_HKU17_sparrow'
+	'YP_005352862.1_Night_heron_coronavirus_HKU19_night-heron'
+	'YP_005352870.1_Wigeon_coronavirus_HKU20_wigeon'
+	'YP_005352880.1_Common_moorhen_coronavirus_HKU21_common_moorhen'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('WGD01461.1_Porcine_epidemic_diarrhea_virus_Sus_scrofa'[&!color=#0000ff]:0.231677,'ULR56676.1_Bat_alphacoronavirus_Miniopterus_fuliginosus'[&!color=#0000ff]:0.222598,(('AWK59978.1_Human_coronavirus_NL63_Homo_sapiens'[&!color=#0000ff]:0.188145,'AOI28289.1_Camel_alphacoronavirus_Camel229E_Camelus_dromedarius'[&!color=#0000ff]:0.19195)[&label="100/100",!color=#0000ff]:0.087199,(('UUT43978.1_Canine_coronavirus_Canis_lupus_familiaris'[&!color=#0000ff]:0.206874,'AKG92638.1_Ferret_coronavirus_Mustela_putorius__ferret_'[&!color=#0000ff]:0.180383)[&label="100/100",!color=#0000ff]:0.180777,(((('AGT28262.1_Betacoronavirus_Erinaceus_VMC_DEU_2012_Erinaceus_europaeus'[&!color=#009900]:0.126705,(('WBY50244.1_Middle_East_respiratory_syndrome-related_coronavirus_Camelus_dromedarius'[&!color=#009900]:0.004174,'AFS88944.1_Human_betacoronavirus_2c_EMC_2012_Homo_sapiens'[&!color=#009900]:0.002742)[&label="100/100",!color=#009900]:0.110762,'AWH65930.1_Pipistrellus_bat_coronavirus_HKU5_'[&!color=#009900]:0.147736)[&label="99.2/98",!color=#009900]:0.053522)[&label="100/100",!color=#009900]:0.308624,'QVT76605.1_Pangolin_coronavirus_pangolin'[&!color=#009900]:0.421841)[&label="99.8/99",!color=#009900]:0.093844,'UZT75405.1_Bovine_coronavirus_Dairy_Calves'[&!color=#009900]:0.466519)[&label="100/100",!color=#009900]:0.176105,(((((('ACJ12043.1_Bulbul_coronavirus_HKU11-796_Chinese_bulbul'[&!color=#ff0000,!rotate=false]:0.102536,((('BBC54821.1_Falcon_coronavirus_UAE-HKU27_Falco_sp.'[&!color=#ff0000,!rotate=false]:0.004418,('BBC54831.1_Houbara_coronavirus_UAE-HKU28_Chlamydotis_sp.__Houbara_'[&!color=#ff0000,!rotate=false]:0.001019,'BBC54841.1_Pigeon_coronavirus_UAE-HKU29_Columbidae_sp.__Pigeon_'[&!color=#ff0000,!rotate=false]:6.82E-4)[&label="99.5/97",!color=#ff0000,!rotate=false]:0.003441)[&label="82.8/89",!color=#ff0000,!rotate=false]:0.037218,TRINITY_Gentoo_Penguin_Virus_replicase_polyprotein[&!color=#ff0000,!rotate=true]:0.059165)[&label="15.1/38",!color=#ff0000,!rotate=true]:0.054937,('YP_005352837.1_White-eye_coronavirus_HKU16_white-eye'[&!color=#ff0000,!rotate=true]:0.048263,TRINITY_White-Eye_coronavirus_HKU16_ORF1ab_polyprotein[&!color=#ff0000,!rotate=true]:0.189439)[&label="80/73",!color=#ff0000,!rotate=true]:0.042609)[&label="100/56",!color=#ff0000,!rotate=true]:0.057064)[&label="100/63",!color=#ff0000,!rotate=false]:0.035936,((((('AIB07806.1_Deltacoronavirus_PDCoV_USA_Ohio137_2014_swine'[&!color=#ff0000,!rotate=false]:1.7E-4,'QWX20056.1_Porcine_deltacoronavirus_swine'[&!color=#ff0000,!rotate=false]:6.8E-4)[&label="99.4/100",!color=#ff0000,!rotate=false]:0.002254,'BAY00729.1_Coronavirus_HKU15_Sus_scrofa_domesticus'[&!color=#ff0000,!rotate=false]:0.003571)[&label="100/100",!color=#ff0000,!rotate=false]:0.025656,'YP_005352845.1_Sparrow_coronavirus_HKU17_sparrow'[&!color=#ff0000,!rotate=false]:0.014994)[&label="100/100",!color=#ff0000,!rotate=false]:0.022023,'AXP20280.1_Quail_deltacoronavirus_Coturnix_japonica'[&!color=#ff0000,!rotate=false]:0.049759)[&label="100/100",!color=#ff0000,!rotate=false]:0.069777,'AFD29216.1_Magpie-robin_coronavirus_HKU18_magpie-robin'[&!color=#ff0000,!rotate=false]:0.114382)[&label="100/75",!color=#ff0000,!rotate=false]:0.063341)[&label="100/97",!color=#ff0000,!rotate=false]:0.081982,'YP_005352880.1_Common_moorhen_coronavirus_HKU21_common_moorhen'[&!color=#ff0000,!rotate=false]:0.164443)[&label="100/100",!color=#ff0000,!rotate=false]:0.218204,'YP_005352870.1_Wigeon_coronavirus_HKU20_wigeon'[&!color=#ff0000,!rotate=false]:0.406722)[&label="36.6/58",!color=#ff0000,!rotate=false]:0.075241,('WOR09765.1_Chinese_pond_heron_coronavirus_XN11_Chinese_Pond-Heron'[&!color=#ff0000,!rotate=true]:0.005393,'YP_005352862.1_Night_heron_coronavirus_HKU19_night-heron'[&!color=#ff0000,!rotate=true]:0.007379)[&label="100/100",!color=#ff0000,!rotate=true]:0.309009)[&label="100/100",!rotate=false,!color=#ff0000]:0.53841,(('WKW84054.1_Swan_goose_coronavirus_swan_goose'[&!color=#ff9900,!rotate=true]:0.250577,('AKF17722.1_Duck_coronavirus_DK_GD_27_2014_duck'[&!color=#ff9900,!rotate=true]:0.079753,('YP_001941164.2_Turkey_coronavirus_turkey'[&!color=#ff9900,!rotate=true]:0.062259,'AQY55874.1_Infectious_bronchitis_virus_Gallus_gallus'[&!color=#ff9900,!rotate=true]:0.025214)[&label="100/100",!color=#ff9900,!rotate=true]:0.064416)[&label="100/100",!color=#ff9900,!rotate=true]:0.207451)[&label="100/100",!color=#ff9900,!rotate=true]:0.214493,('QII89046.1_Bottlenose_dolphin_coronavirus_bottlenose_dolphin'[&!color=#ff9900,!rotate=true]:0.001402,'YP_001876435.1_Beluga_whale_coronavirus_SW1_Delphinapterus_leucas__beluga_whale_'[&!color=#ff9900,!rotate=true]:0.009337)[&label="100/100",!color=#ff9900,!rotate=true]:0.46043)[&label="100/100",!color=#ff9900,!rotate=true]:0.141291)[&label="100/100",!rotate=true]:0.195356)[&label="100/100",!color=#0000ff]:0.377934)[&label="100/100",!color=#0000ff]:0.132368)[&label="99.1/98",!color=#0000ff]:0.054863);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=true;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

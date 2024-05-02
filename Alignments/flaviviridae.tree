@@ -1,0 +1,253 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=151;
+	taxlabels
+	'AAF02524.2_Pestivirus_reindeer-1_V60-Krefeld_Rangifer_tarandus'
+	'AGC52814.1_Hepacivirus_myodae_Myodes_glareolus'
+	'AGJ71780.1_Pegivirus_neotomae_Neotoma_lepida'[&!color=#000000]
+	'AIU36197.1_Pestivirus_ratti_Rattus_norvegicus'
+	'AIU36221.1_Hepacivirus_norvegici_Rattus_norvegicus'
+	'ALO60280.1_Simian_pegivirus_Papio_cynocephalus__yellow_baboon_'[&!color=#000000]
+	'ATP66829.1_Rodent_hepacvirus_Allactaga_sibirica'
+	'ATP66857.1_Rodent_pestivirus_Apodemus_draco'
+	'AVM87257.1_Nanhai_dogfish_shark_hepacivirus_Squalus_brevirostris'
+	'AVM87258.1_Nanhai_ghost_shark_hepacivirus_2_Chimaera_sp.'
+	'AVM87260.1_Chinese_broad-headed_pond_turtle_hepacivirus_Mauremys_megalocephala'
+	'AVM87613.1_Chinese_softshell_turtle_hepacivirus_Pelodiscus_sinensis'
+	'AWU67496.1_Sigmodontinae_hepacivirus_Oligoryzomys_nigripes'
+	'AXY55096.1_Rodent_pegivirus_Rattus_norvegicus'[&!color=#000000]
+	'AZA36447.1_Sifaka_hepacivirus_Propithecus_diadema__diademed_sifaka_'
+	'AZQ00667.1_Bovine_viral_diarrhea_virus_2_'
+	'BAK61615.1_Hepatitis_C_virus_subtype_2b_Homo_sapiens'
+	'BBI15921.1_Hepacivirus_equi_Equus_caballus'
+	'BCL51043.1_Classical_swine_fever_virus_Sus_scrofa'
+	'BCT43066.1_Feline_pegivirus_JP03-2471_Felis_silvestris_catus'[&!color=#000000]
+	'CAG9163317.1_Bovine_hepacivirus_'
+	'CAI5755670.1_Viviparous_lizard_hepacivirus_'
+	'CAI5757786.1_Crab-eating_macaque_hepacivirus_'
+	'CAI5759524.1_Zebra_finch_hepacivirus_1_'
+	'CAI5760823.1_White_sucker_hepacivirus_'
+	'CAI5760825.1_Catfish_hepacivirus_'
+	'CAI5760826.1_Zebra_finch_hepacivirus_2_'
+	'CAI5760841.1_Northern_treeshrew_hepacivirus_'
+	'CVH74176.1_Pegivirus_platyrrhini_'[&!color=#000000]
+	'DAD52839.1_Bat_hepacivirus_Peropteryx_macrotis'
+	'FAA04024.1_Tree_shrew_pegivirus_Tupaia_belangeri'[&!color=#000000]
+	'NP_041724.2_West_Nile_virus_'
+	'NP_041726.1_Yellow_fever_virus_'
+	'NP_042692.1_Hepacivirus_platyrrhini_Homo_sapiens'
+	'NP_043135.1_Tick-borne_encephalitis_virus_'
+	'NP_056931.1_GB_virus-B_'
+	'NP_059434.1_Japanese_encephalitis_virus_'
+	'NP_619758.1_Modoc_virus_'
+	'NP_620044.1_Rio_Bravo_virus_'
+	'NP_620045.1_Apoi_virus_'
+	'NP_620108.1_Langat_virus_'
+	'NP_658908.1_Tamana_bat_virus_Pteronotus_parnellii'
+	'NP_872627.1_Yokose_virus_'
+	'NP_878909.1_Omsk_hemorrhagic_fever_virus_'
+	'NP_891560.1_Kamiti_River_virus_'
+	'QDJ94981.1_ovine_IT_pestivirus_ovine'
+	'QDK56780.1_Human_pegivirus_genotype_1_Homo_sapiens'[&!color=#000000]
+	'QFG70407.1_Bovine_hepacivirus_N_Bos_taurus'
+	'QFQ60723.1_Phocoena_pestivirus_harbor_porpoise'
+	'QFR04963.1_Bald_eagle_hepacivirus_Haliaeetus_leucocephalus'
+	'QHD25538.1_Jogalong_virus_Culex_annulirostris'
+	'QJT41579.1_Hepacivirus_bovis_cattle'
+	'QKT21547.1_Duck_hepacivirus_duck'
+	'QKY77187.1_Pegivirus_equi_Equus_caballus'[&!color=#000000]
+	'QOI14828.1_Hepacivirus_hominis_Homo_sapiens'
+	'QPF47243.1_Pestivirus_suis_pig'
+	'QQM18104.1_Bat_hepacivirus_Glauconycteris_sp.'
+	'QUE43477.1_Goose_pegivirus_1_Anser_cygnoides'[&!color=#000000]
+	'QUE43478.1_Goose_pegivirus_2_Anser_cygnoides'[&!color=#000000]
+	'QUS47374.1_Longquan_Rhinolophus_sinicus_pegivirus_1_Rhinolophus_sinicus'[&!color=#000000]
+	'QUS47376.1_Longquan_Niviventer_fulvescens_pegivirus_1_Niviventer_fulvescens'[&!color=#000000]
+	'QVG71835.1_Passer_montanus_pegivirus_Passer_montanus'[&!color=#000000]
+	'QVG71836.1_Leucosticte_brandti_pegivirus_Leucosticte_brandti'[&!color=#000000]
+	'QVG71837.1_Phaiomys_leucurus_pegivirus_Neodon_leucurus'[&!color=#000000]
+	'QVG71838.1_Montifringilla_taczanowskii_pegivirus_Onychostruthus_taczanowskii'[&!color=#000000]
+	TRINITY_DN96294_c0_g1_i2_len5933_-_ORF_1__frame_2__translation[&!color=#e04a3d]
+	'UBZ53977.1_Ringtail_hepacivirus_Bassariscus_astutus'
+	'UEC94277.1_Bovine_viral_diarrhea_virus_1_'
+	'UJY53964.1_Gerbil_hepacivirus_Meriones_unguiculatus'
+	'UMO75494.1_Porcupine_pegivirus_porcupine'[&!color=#000000]
+	'UOL48898.1_Longquan_Rhinolophus_pusillus_hepacivirus_1_Rhinolophus_pusillus'
+	'UOL48901.1_Wufeng_Blarinella_griselda_pegivirus_1_Blarinella_griselda'[&!color=#000000]
+	'UOL48902.1_Wufeng_Crocidura_attenuata_pegivirus_1_Crocidura_attenuata'[&!color=#000000]
+	'USF20789.1_Hepacivirus_Q_goose'
+	'UUV45485.1_Norway_rat_hepacivirus_1_Rattus_norvegicus_strain_Sprague-Dawley'
+	'UVF58772.1_Chaetodon_aureofaciatus_hepacivirus_Chaetodon_aureofaciatus'
+	'UVN12858.1_Pestivirus_bovis_Bos_taurus_L8'
+	'WBM84745.1_Bat_pegivirus_Pteropus_poliocephalus'[&!color=#000000]
+	'WEC89328.1_Pestivirus_brazilense_Bos_indicus'
+	'WFP52453.1_Atypical_porcine_pestivirus_pig'
+	'WFS72475.1_Pangolin_pestivirus'
+	'WIM49409.1_Pegivirus_hominis_Homo_sapiens'[&!color=#000000]
+	'YP_001040004.1_Aroa_virus_'
+	'YP_001040006.1_Ilheus_virus_'
+	'YP_001040007.1_Kokobera_virus_'
+	'YP_002790882.1_Kedougou_virus_mosquito'
+	'YP_002790883.1_Bagaza_virus_mosquito'
+	'YP_002884239.1_Quang_Binh_virus_Culex_tritaeniorhynchus__mosquito_'
+	'YP_003029843.1_Aedes_flavivirus_Aedes_albopictus'
+	'YP_004734464.1_Tembusu_virus_goose'
+	'YP_005352889.1_Donggang_virus_Aedes_sp.__mosquito_'
+	'YP_005454257.1_Chaoyang_virus_mosquito'
+	'YP_006846328.2_Ntaya_virus_'
+	'YP_006860588.1_Aydin-like_pestivirus_sheep'
+	'YP_007877501.1_Mosquito_flavivirus_Culex_tritaeniorhynchus'
+	'YP_009001464.1_Tyuleniy_virus_Ixodes_uriae'
+	'YP_009001771.1_Kama_virus_Ixodes_lividus'
+	'YP_009026410.1_Nhumirim_virus_Culex_chidesteri'
+	'YP_009026415.1_Pronghorn_antelope_pestivirus_pronghorn_antelope'
+	'YP_009041466.1_Nienokoue_virus_Culex_sp.'
+	'YP_009056847.1_Ilomantsi_virus_mosquito'
+	'YP_009056848.1_Lammi_virus_mosquito'
+	'YP_009109557.1_Norway_rat_hepacivirus_1_Rattus_norvegicus'
+	'YP_009109567.1_Norway_rat_pestivirus_Rattus_norvegicus'
+	'YP_009126871.1_Jutiapa_virus_Sigmodon_hispidus'
+	'YP_009126874.1_Cacipacore_virus_Formicarius_analis'
+	'YP_009126875.1_Sokoluk_virus_Pipistrellus_pipistrellus'
+	'YP_009162613.1_Spanish_goat_encephalitis_virus_Bermeya_goat'
+	'YP_009164029.1_Parramatta_River_virus_'
+	'YP_009164031.1_Mercadeo_virus_Culex_sp.'
+	'YP_009169331.1_Paraiso_Escondido_virus_Psathyromyia_abonnenci'
+	'YP_009179227.1_Wenling_shark_virus_Proscyllium_habereri'
+	'YP_009222008.1_Spondweni_virus_'
+	'YP_009246337.1_West_Nile_virus_'
+	'YP_009256193.1_Culiseta_flavivirus_Culiseta_melanura'
+	'YP_009256194.1_GB_virus-D_Pteropus_giganteus'
+	'YP_009259257.1_Cell_fusing_agent_virus_Aedes_aegypti_Galveston_colony'
+	'YP_009259488.1_Nakiwogo_virus_Mansonia_africana_nigerrima_voucher_H4A1'
+	'YP_009259489.1_Hanko_virus_mosquito'
+	'YP_009305197.1_Anopheles_flavivirus_variant_1_Anopheles_gambiae'
+	'YP_009322132.1_Hepacivirus_vittatae_Hipposideros_vittatus'
+	'YP_009328360.1_New_Mapoon_virus_mosquito'
+	'YP_009344962.1_Palm_Creek_virus_Coquillettidia_xanthogaster'
+	'YP_009345019.1_Nounane_virus_Uranotaenia_mashonaensis'
+	'YP_009345036.1_Bamaga_virus_Culex_sitiens_subgroup'
+	'YP_009350101.1_Phnom_Penh_bat_virus_Cynopterus_brachyotis_angulatus'
+	'YP_009350102.1_Xishuangbanna_aedes_flavivirus_Aedes_albopictus'
+	'YP_009351820.1_T_Ho_virus_Culex_quinquefasciatus'
+	'YP_009351861.1_Menghai_flavivirus_mosquito'
+	'YP_009352228.1_Ochlerotatus_caspius_flavivirus_Ochlerotatus_caspius'
+	'YP_009361867.1_Pegivirus_suis_Sus_scrofa_domestica'[&!color=#000000]
+	'YP_009388577.1_Karumba_virus_Anopheles_meraukensis'
+	'YP_009389296.1_Mac_Peak_virus_Anopheles_farauti'
+	'YP_009428568.1_Zika_virus_Homo_sapiens'
+	'YP_009506358.1_Hepacivirus_myodae_Myodes_glareolus'
+	'YP_009506359.1_Hepacivirus_rhabdomysis_Rhabdomys_pumilio'
+	'YP_009506361.1_Hepacivirus_macronycteridis_Hipposideros_vittatus'
+	'YP_009506362.1_Hepacivirus_otomopis_Otomops_martiensseni'
+	'YP_009506365.1_Pegivirus_carolliae_Carollia_perspicillata'[&!color=#000000]
+	'YP_009506366.1_Pegivirus_scotophili_Scotophilus_dinganii'[&!color=#000000]
+	'YP_009506368.1_Pegivirus_sturnirae_Sturnira_lilium'[&!color=#000000]
+	'YP_009551951.1_Lumpfish_flavivirus_Cyclopterus_lumpus'
+	'YP_009552278.1_Nanay_virus_'
+	'YP_009552767.1_Culex_Flavi-like_virus_Culex_sp.__mosquito_'
+	'YP_009553010.1_Culex_theileri_flavivirus_Anopheles_vagus'
+	'YP_009553376.1_Kampung_Karu_virus_Anopheles_tessellatus'
+	'YP_009553586.1_Hepacivirus_P_ground_squirrel__Citellus_dauricus_Brandt_'
+	'YP_010774711.1_Guereza_hepacivirus_black-and-white_colobus'
+	'YP_010774712.1_Pegivirus_platyrrhini_'[&!color=#000000]
+	'YP_164264.1_Usutu_virus_'
+	'YP_899469.2_Culex_flavivirus_'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('YP_005454257.1_Chaoyang_virus_mosquito'[&!color=#3846c2]:0.050315,'YP_009056848.1_Lammi_virus_mosquito'[&!color=#3846c2]:0.074575,(('YP_005352889.1_Donggang_virus_Aedes_sp.__mosquito_'[&!color=#3846c2]:0.155288,'YP_009056847.1_Ilomantsi_virus_mosquito'[&!color=#3846c2]:0.179123)[&bootstrap="100/100",!color=#3846c2]:0.085926,(((((('YP_009351820.1_T_Ho_virus_Culex_quinquefasciatus'[&!color=#3846c2]:0.156432,'YP_001040006.1_Ilheus_virus_'[&!color=#3846c2]:0.158438)[&bootstrap="100/100",!color=#3846c2]:0.083487,('YP_004734464.1_Tembusu_virus_goose'[&!color=#3846c2]:0.103242,('YP_006846328.2_Ntaya_virus_'[&!color=#3846c2]:0.058609,'YP_002790883.1_Bagaza_virus_mosquito'[&!color=#3846c2]:0.064819)[&bootstrap="99.9/100",!color=#3846c2]:0.053199)[&bootstrap="100/100",!color=#3846c2]:0.157086)[&bootstrap="98.7/100",!color=#3846c2]:0.051574,((('YP_164264.1_Usutu_virus_'[&!color=#3846c2]:0.096897,'NP_059434.1_Japanese_encephalitis_virus_'[&!color=#3846c2]:0.09014)[&bootstrap="100/100",!color=#3846c2]:0.071391,('YP_009246337.1_West_Nile_virus_'[&!color=#3846c2]:0.082694,'NP_041724.2_West_Nile_virus_'[&!color=#3846c2]:0.024111)[&bootstrap="100/100",!color=#3846c2]:0.102484)[&bootstrap="92.4/99",!color=#3846c2]:0.044872,'YP_009126874.1_Cacipacore_virus_Formicarius_analis'[&!color=#3846c2]:0.174375)[&bootstrap="100/100",!color=#3846c2]:0.097105)[&bootstrap="100/100",!color=#3846c2]:0.138817,(((('YP_009222008.1_Spondweni_virus_'[&!color=#3846c2]:0.132862,'YP_009428568.1_Zika_virus_Homo_sapiens'[&!color=#3846c2]:0.151044)[&bootstrap="100/100",!color=#3846c2]:0.121297,'YP_002790882.1_Kedougou_virus_mosquito'[&!color=#3846c2]:0.315167)[&bootstrap="98.7/100",!color=#3846c2]:0.060342,('YP_009328360.1_New_Mapoon_virus_mosquito'[&!color=#3846c2]:0.195474,'YP_001040007.1_Kokobera_virus_'[&!color=#3846c2]:0.167491)[&bootstrap="100/100",!color=#3846c2]:0.189317)[&bootstrap="45.9/93",!color=#3846c2]:0.035662,'YP_001040004.1_Aroa_virus_'[&!color=#3846c2]:0.270714)[&bootstrap="96.9/98",!color=#3846c2]:0.05122)[&bootstrap="100/100",!color=#3846c2]:0.105254,((('YP_009345019.1_Nounane_virus_Uranotaenia_mashonaensis'[&!color=#3846c2]:0.30009,'YP_009552278.1_Nanay_virus_'[&!color=#3846c2]:0.344347)[&bootstrap="98.3/100",!color=#3846c2]:0.082711,'YP_009026410.1_Nhumirim_virus_Culex_chidesteri'[&!color=#3846c2]:0.314498)[&bootstrap="99.7/100",!color=#3846c2]:0.08113,'YP_009553376.1_Kampung_Karu_virus_Anopheles_tessellatus'[&!color=#3846c2]:0.323455)[&bootstrap="100/100",!color=#3846c2]:0.102147)[&bootstrap="66.1/97",!color=#3846c2]:0.054652,((('YP_009169331.1_Paraiso_Escondido_virus_Psathyromyia_abonnenci'[&!color=#3846c2]:0.356898,('NP_041726.1_Yellow_fever_virus_'[&!color=#3846c2]:0.246404,'YP_009345036.1_Bamaga_virus_Culex_sitiens_subgroup'[&!color=#3846c2]:0.305298)[&bootstrap="99.9/100",!color=#3846c2]:0.104851)[&bootstrap="74.4/97",!color=#3846c2]:0.082893,('YP_009126875.1_Sokoluk_virus_Pipistrellus_pipistrellus'[&!color=#3846c2]:0.177921,'NP_872627.1_Yokose_virus_'[&!color=#3846c2]:0.210007)[&bootstrap="100/100",!color=#3846c2]:0.315753)[&bootstrap="82.9/93",!color=#3846c2]:0.078875,(((('YP_009001771.1_Kama_virus_Ixodes_lividus'[&!color=#3846c2]:0.147126,'YP_009001464.1_Tyuleniy_virus_Ixodes_uriae'[&!color=#3846c2]:0.131734)[&bootstrap="100/100",!color=#3846c2]:0.204963,((('YP_009162613.1_Spanish_goat_encephalitis_virus_Bermeya_goat'[&!color=#3846c2]:0.033,'NP_043135.1_Tick-borne_encephalitis_virus_'[&!color=#3846c2]:0.017035)[&bootstrap="100/100",!color=#3846c2]:0.032556,'NP_878909.1_Omsk_hemorrhagic_fever_virus_'[&!color=#3846c2]:0.051619)[&bootstrap="100/100",!color=#3846c2]:0.05908,'NP_620108.1_Langat_virus_'[&!color=#3846c2]:0.079546)[&bootstrap="100/100",!color=#3846c2]:0.257443)[&bootstrap="100/100",!color=#3846c2]:0.180171,((('YP_009350101.1_Phnom_Penh_bat_virus_Cynopterus_brachyotis_angulatus'[&!color=#3846c2]:0.262001,'NP_620044.1_Rio_Bravo_virus_'[&!color=#3846c2]:0.193564)[&bootstrap="100/100",!color=#3846c2]:0.096536,('YP_009126871.1_Jutiapa_virus_Sigmodon_hispidus'[&!color=#3846c2]:0.2117,'NP_619758.1_Modoc_virus_'[&!color=#3846c2]:0.232111)[&bootstrap="100/100",!color=#3846c2]:0.119765)[&bootstrap="98.1/99",!color=#3846c2]:0.090084,'NP_620045.1_Apoi_virus_'[&!color=#3846c2]:0.352631)[&bootstrap="100/100",!color=#3846c2]:0.314148)[&bootstrap="81.4/91",!color=#3846c2]:0.131273,(((((((('YP_003029843.1_Aedes_flavivirus_Aedes_albopictus'[&!color=#3846c2]:0.226467,'NP_891560.1_Kamiti_River_virus_'[&!color=#3846c2]:0.108462)[&bootstrap="96.8/98",!color=#3846c2]:0.090711,'YP_009259257.1_Cell_fusing_agent_virus_Aedes_aegypti_Galveston_colony'[&!color=#3846c2]:0.125976)[&bootstrap="100/100",!color=#3846c2]:0.31464,('YP_009351861.1_Menghai_flavivirus_mosquito'[&!color=#3846c2]:0.137743,'YP_009350102.1_Xishuangbanna_aedes_flavivirus_Aedes_albopictus'[&!color=#3846c2]:0.104004)[&bootstrap="100/100",!color=#3846c2]:0.360253)[&bootstrap="25.9/74",!color=#3846c2]:0.082323,(('YP_009352228.1_Ochlerotatus_caspius_flavivirus_Ochlerotatus_caspius'[&!color=#3846c2]:0.015855,'YP_009259489.1_Hanko_virus_mosquito'[&!color=#3846c2]:0.005325)[&bootstrap="100/100",!color=#3846c2]:0.142915,'YP_009164029.1_Parramatta_River_virus_'[&!color=#3846c2]:0.131298)[&bootstrap="100/100",!color=#3846c2]:0.387436)[&bootstrap="100/100",!color=#3846c2]:0.161389,((('YP_899469.2_Culex_flavivirus_'[&!color=#3846c2]:0.144222,('YP_009553010.1_Culex_theileri_flavivirus_Anopheles_vagus'[&!color=#3846c2]:0.145265,('YP_002884239.1_Quang_Binh_virus_Culex_tritaeniorhynchus__mosquito_'[&!color=#3846c2]:0.023244,'YP_007877501.1_Mosquito_flavivirus_Culex_tritaeniorhynchus'[&!color=#3846c2]:0.034459)[&bootstrap="100/100",!color=#3846c2]:0.137642)[&bootstrap="99.9/100",!color=#3846c2]:0.068234)[&bootstrap="100/100",!color=#3846c2]:0.208559,(('YP_009259488.1_Nakiwogo_virus_Mansonia_africana_nigerrima_voucher_H4A1'[&!color=#3846c2]:0.190401,'YP_009344962.1_Palm_Creek_virus_Coquillettidia_xanthogaster'[&!color=#3846c2]:0.157456)[&bootstrap="100/100",!color=#3846c2]:0.165829,'YP_009041466.1_Nienokoue_virus_Culex_sp.'[&!color=#3846c2]:0.276163)[&bootstrap="93.9/99",!color=#3846c2]:0.069399)[&bootstrap="100/100",!color=#3846c2]:0.194279,(('YP_009305197.1_Anopheles_flavivirus_variant_1_Anopheles_gambiae'[&!color=#3846c2]:0.100104,'YP_009389296.1_Mac_Peak_virus_Anopheles_farauti'[&!color=#3846c2]:0.075605)[&bootstrap="95.2/99",!color=#3846c2]:0.05096,'YP_009388577.1_Karumba_virus_Anopheles_meraukensis'[&!color=#3846c2]:0.054394)[&bootstrap="100/100",!color=#3846c2]:0.548908)[&bootstrap="99/83",!color=#3846c2]:0.097623)[&bootstrap="30/71",!color=#3846c2]:0.076386,(('YP_009164031.1_Mercadeo_virus_Culex_sp.'[&!color=#3846c2]:0.131323,'YP_009256193.1_Culiseta_flavivirus_Culiseta_melanura'[&!color=#3846c2]:0.163612)[&bootstrap="100/100",!color=#3846c2]:0.218135,'YP_009552767.1_Culex_Flavi-like_virus_Culex_sp.__mosquito_'[&!color=#3846c2]:0.345769)[&bootstrap="100/100",!color=#3846c2]:0.29283)[&bootstrap="100/100",!color=#3846c2]:0.430399,('NP_658908.1_Tamana_bat_virus_Pteronotus_parnellii'[&!color=#3846c2]:1.087527,'YP_009551951.1_Lumpfish_flavivirus_Cyclopterus_lumpus'[&!color=#3846c2]:1.173073)[&bootstrap="100/100",!color=#3846c2]:0.44401)[&bootstrap="28/39",!color=#3846c2]:0.12384,((((((('YP_009179227.1_Wenling_shark_virus_Proscyllium_habereri'[&!color=#e68a39]:0.531433,('AVM87257.1_Nanhai_dogfish_shark_hepacivirus_Squalus_brevirostris'[&!color=#e68a39]:0.515648,'AVM87258.1_Nanhai_ghost_shark_hepacivirus_2_Chimaera_sp.'[&!color=#e68a39]:0.594722)[&bootstrap="64.5/98",!color=#e68a39]:0.076469)[&bootstrap="100/100",!color=#e68a39]:0.215447,('UVF58772.1_Chaetodon_aureofaciatus_hepacivirus_Chaetodon_aureofaciatus'[&!color=#e68a39]:0.723314,'CAI5760825.1_Catfish_hepacivirus_'[&!color=#e68a39]:0.734792)[&bootstrap="70.3/86",!color=#e68a39]:0.100499)[&bootstrap="85/78",!color=#e68a39]:0.08194,'CAI5760823.1_White_sucker_hepacivirus_'[&!color=#e68a39]:0.72011)[&bootstrap="100/100",!color=#e68a39]:0.158665,(((((((('YP_009109557.1_Norway_rat_hepacivirus_1_Rattus_norvegicus'[&!color=#e68a39]:0.005799,'UUV45485.1_Norway_rat_hepacivirus_1_Rattus_norvegicus_strain_Sprague-Dawley'[&!color=#e68a39]:0.008168)[&bootstrap="100/100",!color=#e68a39]:0.343523,(('YP_009506358.1_Hepacivirus_myodae_Myodes_glareolus'[&!color=#e68a39]:3.0E-6,'AGC52814.1_Hepacivirus_myodae_Myodes_glareolus'[&!color=#e68a39]:3.0E-6)[&bootstrap="100/100",!color=#e68a39]:0.238085,'UJY53964.1_Gerbil_hepacivirus_Meriones_unguiculatus'[&!color=#e68a39]:0.207282)[&bootstrap="100/100",!color=#e68a39]:0.146719)[&bootstrap="100/100",!color=#e68a39]:0.114921,(('UBZ53977.1_Ringtail_hepacivirus_Bassariscus_astutus'[&!color=#e68a39]:0.382601,'CAI5760841.1_Northern_treeshrew_hepacivirus_'[&!color=#e68a39]:0.260334)[&bootstrap="95.2/100",!color=#e68a39]:0.076601,'YP_009553586.1_Hepacivirus_P_ground_squirrel__Citellus_dauricus_Brandt_'[&!color=#e68a39]:0.293319)[&bootstrap="100/100",!color=#e68a39]:0.082156)[&bootstrap="98.2/100",!color=#e68a39]:0.071418,('AZA36447.1_Sifaka_hepacivirus_Propithecus_diadema__diademed_sifaka_'[&!color=#e68a39]:0.446758,'AIU36221.1_Hepacivirus_norvegici_Rattus_norvegicus'[&!color=#e68a39]:0.4368)[&bootstrap="97.2/99",!color=#e68a39]:0.08163)[&bootstrap="100/100",!color=#e68a39]:0.301103,(((((('NP_056931.1_GB_virus-B_'[&!color=#e68a39]:0.001168,'NP_042692.1_Hepacivirus_platyrrhini_Homo_sapiens'[&!color=#e68a39]:0.002419)[&bootstrap="100/100",!color=#e68a39]:0.503612,'DAD52839.1_Bat_hepacivirus_Peropteryx_macrotis'[&!color=#e68a39]:0.380227)[&bootstrap="8.4/51",!color=#e68a39]:0.107602,'QQM18104.1_Bat_hepacivirus_Glauconycteris_sp.'[&!color=#e68a39]:0.477029)[&bootstrap="99.9/100",!color=#e68a39]:0.096637,('UOL48898.1_Longquan_Rhinolophus_pusillus_hepacivirus_1_Rhinolophus_pusillus'[&!color=#e68a39]:0.213202,'YP_009322132.1_Hepacivirus_vittatae_Hipposideros_vittatus'[&!color=#e68a39]:0.194467)[&bootstrap="100/100",!color=#e68a39]:0.348228)[&bootstrap="93.4/98",!color=#e68a39]:0.080597,(('QJT41579.1_Hepacivirus_bovis_cattle'[&!color=#e68a39]:0.038814,'QFG70407.1_Bovine_hepacivirus_N_Bos_taurus'[&!color=#e68a39]:0.024462)[&bootstrap="100/100",!color=#e68a39]:0.088906,'CAG9163317.1_Bovine_hepacivirus_'[&!color=#e68a39]:0.1146)[&bootstrap="100/100",!color=#e68a39]:0.661696)[&bootstrap="7.9/70",!color=#e68a39]:0.054109,('YP_010774711.1_Guereza_hepacivirus_black-and-white_colobus'[&!color=#e68a39]:0.211054,'CAI5757786.1_Crab-eating_macaque_hepacivirus_'[&!color=#e68a39]:0.223844)[&bootstrap="100/100",!color=#e68a39]:0.493283)[&bootstrap="92.3/75",!color=#e68a39]:0.078033)[&bootstrap="62.8/76",!color=#e68a39]:0.063588,('YP_009506359.1_Hepacivirus_rhabdomysis_Rhabdomys_pumilio'[&!color=#e68a39]:0.380168,'AWU67496.1_Sigmodontinae_hepacivirus_Oligoryzomys_nigripes'[&!color=#e68a39]:0.397526)[&bootstrap="100/100",!color=#e68a39]:0.360639)[&bootstrap="100/100",!color=#e68a39]:0.229667,((('BAK61615.1_Hepatitis_C_virus_subtype_2b_Homo_sapiens'[&!color=#e68a39]:0.022169,'QOI14828.1_Hepacivirus_hominis_Homo_sapiens'[&!color=#e68a39]:0.021325)[&bootstrap="100/100",!color=#e68a39]:0.389776,'BBI15921.1_Hepacivirus_equi_Equus_caballus'[&!color=#e68a39]:0.378129)[&bootstrap="100/100",!color=#e68a39]:0.304689,('YP_009506361.1_Hepacivirus_macronycteridis_Hipposideros_vittatus'[&!color=#e68a39]:0.375969,'YP_009506362.1_Hepacivirus_otomopis_Otomops_martiensseni'[&!color=#e68a39]:0.351749)[&bootstrap="100/100",!color=#e68a39]:0.218369)[&bootstrap="100/100",!color=#e68a39]:0.295026)[&bootstrap="90.8/62",!color=#e68a39]:0.094296,(('AVM87260.1_Chinese_broad-headed_pond_turtle_hepacivirus_Mauremys_megalocephala'[&!color=#e68a39]:0.27872,'AVM87613.1_Chinese_softshell_turtle_hepacivirus_Pelodiscus_sinensis'[&!color=#e68a39]:0.262823)[&bootstrap="100/100",!color=#e68a39]:0.428185,'ATP66829.1_Rodent_hepacvirus_Allactaga_sibirica'[&!color=#e68a39]:0.73782)[&bootstrap="26.2/61",!color=#e68a39]:0.112211)[&bootstrap="99.1/95",!color=#e68a39]:0.085297)[&bootstrap="99.9/100",!color=#e68a39]:0.110019,(((('USF20789.1_Hepacivirus_Q_goose'[&!color=#e68a39]:0.436737,('QFR04963.1_Bald_eagle_hepacivirus_Haliaeetus_leucocephalus'[&!color=#e68a39]:0.336882,TRINITY_DN96294_c0_g1_i2_len5933_-_ORF_1__frame_2__translation[&!color=#000000]:0.476961)[&bootstrap="66.9/99",!color=#e68a39]:0.094044)[&bootstrap="68/99",!color=#e68a39]:0.096797,('QHD25538.1_Jogalong_virus_Culex_annulirostris'[&!color=#e68a39]:0.356461,('CAI5760826.1_Zebra_finch_hepacivirus_2_'[&!color=#e68a39]:0.093949,'CAI5759524.1_Zebra_finch_hepacivirus_1_'[&!color=#e68a39]:0.027268)[&bootstrap="100/100",!color=#e68a39]:0.364118)[&bootstrap="100/100",!color=#e68a39]:0.185424)[&bootstrap="100/100",!color=#e68a39]:0.237408,'QKT21547.1_Duck_hepacivirus_duck'[&!color=#e68a39]:0.501091)[&bootstrap="100/100",!color=#e68a39]:0.317017,'CAI5755670.1_Viviparous_lizard_hepacivirus_'[&!color=#e68a39]:0.876463)[&bootstrap="98.3/98",!color=#e68a39]:0.131026)[&bootstrap="100/100",!color=#e68a39]:0.195703,(((((('YP_010774712.1_Pegivirus_platyrrhini_'[&!color=#76e639]:0.429551,((('QDK56780.1_Human_pegivirus_genotype_1_Homo_sapiens'[&!color=#76e639]:0.003489,'WIM49409.1_Pegivirus_hominis_Homo_sapiens'[&!color=#76e639]:0.017643)[&bootstrap="99.4/100",!color=#76e639]:0.007655,'CVH74176.1_Pegivirus_platyrrhini_'[&!color=#76e639]:3.0E-6)[&bootstrap="100/100",!color=#76e639]:0.200407,'ALO60280.1_Simian_pegivirus_Papio_cynocephalus__yellow_baboon_'[&!color=#76e639]:0.214846)[&bootstrap="100/100",!color=#76e639]:0.239275)[&bootstrap="100/100",!color=#76e639]:0.211874,'YP_009361867.1_Pegivirus_suis_Sus_scrofa_domestica'[&!color=#76e639]:0.517797)[&bootstrap="98.1/100",!color=#76e639]:0.084447,(('YP_009256194.1_GB_virus-D_Pteropus_giganteus'[&!color=#76e639]:0.269207,'WBM84745.1_Bat_pegivirus_Pteropus_poliocephalus'[&!color=#76e639]:0.250803)[&bootstrap="100/100",!color=#76e639]:0.205183,'YP_009506368.1_Pegivirus_sturnirae_Sturnira_lilium'[&!color=#76e639]:0.402096)[&bootstrap="99.8/100",!color=#76e639]:0.099275)[&bootstrap="62.2/90",!color=#76e639]:0.086967,('QKY77187.1_Pegivirus_equi_Equus_caballus'[&!color=#76e639]:0.462254,'BCT43066.1_Feline_pegivirus_JP03-2471_Felis_silvestris_catus'[&!color=#76e639]:0.461859)[&bootstrap="97.3/100",!color=#76e639]:0.109455)[&bootstrap="100/100",!color=#76e639]:0.130551,((('QVG71838.1_Montifringilla_taczanowskii_pegivirus_Onychostruthus_taczanowskii'[&!color=#76e639]:0.110372,'QUE43478.1_Goose_pegivirus_2_Anser_cygnoides'[&!color=#76e639]:0.105594)[&bootstrap="100/100",!color=#76e639]:0.17616,('QVG71836.1_Leucosticte_brandti_pegivirus_Leucosticte_brandti'[&!color=#76e639]:0.116047,'QVG71835.1_Passer_montanus_pegivirus_Passer_montanus'[&!color=#76e639]:0.133082)[&bootstrap="100/100",!color=#76e639]:0.179131)[&bootstrap="100/100",!color=#76e639]:0.216596,'QUE43477.1_Goose_pegivirus_1_Anser_cygnoides'[&!color=#76e639]:0.39086)[&bootstrap="100/100",!color=#76e639]:0.268927)[&bootstrap="98/99",!color=#76e639]:0.10615,(((((('AXY55096.1_Rodent_pegivirus_Rattus_norvegicus'[&!color=#76e639]:0.160798,'QUS47376.1_Longquan_Niviventer_fulvescens_pegivirus_1_Niviventer_fulvescens'[&!color=#76e639]:0.142674)[&bootstrap="100/100",!color=#76e639]:0.130933,('AGJ71780.1_Pegivirus_neotomae_Neotoma_lepida'[&!color=#76e639]:0.210898,'QVG71837.1_Phaiomys_leucurus_pegivirus_Neodon_leucurus'[&!color=#76e639]:0.243027)[&bootstrap="100/100",!color=#76e639]:0.090797)[&bootstrap="100/100",!color=#76e639]:0.094387,('UOL48901.1_Wufeng_Blarinella_griselda_pegivirus_1_Blarinella_griselda'[&!color=#76e639]:0.003708,'UOL48902.1_Wufeng_Crocidura_attenuata_pegivirus_1_Crocidura_attenuata'[&!color=#76e639]:2.0E-6)[&bootstrap="100/100",!color=#76e639]:0.319662)[&bootstrap="100/100",!color=#76e639]:0.089404,'YP_009506365.1_Pegivirus_carolliae_Carollia_perspicillata'[&!color=#76e639]:0.329822)[&bootstrap="81.1/85",!color=#76e639]:0.052395,(('YP_009506366.1_Pegivirus_scotophili_Scotophilus_dinganii'[&!color=#76e639]:0.320096,'FAA04024.1_Tree_shrew_pegivirus_Tupaia_belangeri'[&!color=#76e639]:0.304689)[&bootstrap="100/100",!color=#76e639]:0.112033,'QUS47374.1_Longquan_Rhinolophus_sinicus_pegivirus_1_Rhinolophus_sinicus'[&!color=#76e639]:0.35462)[&bootstrap="100/99",!color=#76e639]:0.080511)[&bootstrap="95.5/86",!color=#76e639]:0.101557,'UMO75494.1_Porcupine_pegivirus_porcupine'[&!color=#76e639]:0.374527)[&bootstrap="100/100",!color=#76e639]:0.343308)[&bootstrap="100/100",!color=#76e639]:0.298016)[&bootstrap="100/100"]:0.574849,((('ATP66857.1_Rodent_pestivirus_Apodemus_draco'[&!color=#c248c2]:0.23863,('YP_009109567.1_Norway_rat_pestivirus_Rattus_norvegicus'[&!color=#c248c2]:3.0E-6,'AIU36197.1_Pestivirus_ratti_Rattus_norvegicus'[&!color=#c248c2]:3.0E-6)[&bootstrap="100/100",!color=#c248c2]:0.227606)[&bootstrap="100/100",!color=#c248c2]:0.294003,('QFQ60723.1_Phocoena_pestivirus_harbor_porpoise'[&!color=#c248c2]:0.268137,(((((('YP_006860588.1_Aydin-like_pestivirus_sheep'[&!color=#c248c2]:0.075472,(('QPF47243.1_Pestivirus_suis_pig'[&!color=#c248c2]:0.017372,'BCL51043.1_Classical_swine_fever_virus_Sus_scrofa'[&!color=#c248c2]:0.020738)[&bootstrap="100/100",!color=#c248c2]:0.059285,'QDJ94981.1_ovine_IT_pestivirus_ovine'[&!color=#c248c2]:0.054265)[&bootstrap="100/100",!color=#c248c2]:0.041681)[&bootstrap="99/100",!color=#c248c2]:0.037053,'AAF02524.2_Pestivirus_reindeer-1_V60-Krefeld_Rangifer_tarandus'[&!color=#c248c2]:0.08973)[&bootstrap="100/100",!color=#c248c2]:0.057431,'WEC89328.1_Pestivirus_brazilense_Bos_indicus'[&!color=#c248c2]:0.147839)[&bootstrap="27.3/78",!color=#c248c2]:0.030567,(('UVN12858.1_Pestivirus_bovis_Bos_taurus_L8'[&!color=#c248c2]:0.042702,'UEC94277.1_Bovine_viral_diarrhea_virus_1_'[&!color=#c248c2]:0.051182)[&bootstrap="100/100",!color=#c248c2]:0.077133,'AZQ00667.1_Bovine_viral_diarrhea_virus_2_'[&!color=#c248c2]:0.13436)[&bootstrap="99.6/100",!color=#c248c2]:0.047681)[&bootstrap="100/100",!color=#c248c2]:0.150504,'YP_009026415.1_Pronghorn_antelope_pestivirus_pronghorn_antelope'[&!color=#c248c2]:0.2605)[&bootstrap="100/100",!color=#c248c2]:0.144286,'WFS72475.1_Pangolin_pestivirus'[&!color=#c248c2]:0.342772)[&bootstrap="56.4/92",!color=#c248c2]:0.056672)[&bootstrap="100/100",!color=#c248c2]:0.205965)[&bootstrap="95.9/98",!color=#c248c2]:0.206542,'WFP52453.1_Atypical_porcine_pestivirus_pig'[&!color=#c248c2]:0.687533)[&bootstrap="100/100",!color=#c248c2]:1.339729)[&bootstrap="100/100",!color=#3846c2]:1.559667)[&bootstrap="100/100",!color=#3846c2]:0.328692)[&bootstrap="99.6/100",!color=#3846c2]:0.119254)[&bootstrap="100/100",!color=#3846c2]:0.122944)[&bootstrap="100/100",!color=#3846c2]:0.222301)[&bootstrap="100/100",!color=#3846c2]:0.154193);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RADIAL";
+	set layout.zoom=0;
+	set legend.attribute="bootstrap";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="bootstrap";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=false;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
