@@ -1,6 +1,6 @@
 # Rowi dermatosis
 
-Supplementary information for the publication "A metagenomic investigation into _Apteryx rowi_ dermatitis identifies multiple viruses and a novel species of nematode."
+Supplementary information for the publication "A metagenomic investigation into _Apteryx rowi_ dermatosis identifies multiple viruses and a novel species of nematode."
 
 ## Supplementary Table S1
 [Table S1](Supplementary/Supplementary_Table_S1_Sequencing_library_metadata.xlsx) Sequencing library metadata. Sample type, health status, pooling, library volume, library concentration, viral detection, viral abundance.
