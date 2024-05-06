@@ -8,6 +8,11 @@ Supplementary information for the publication "A metagenomic investigation into 
 ## Supplementary Table S2
 [Table S2](Supplementary/Supplementary_Table_S2_GenBank_accession_numbers_for_viruses_used_in_Figure4.xlsx) GenBank accession numbers for viruses used in Figure 4a, 4b, 4c.
 
+[<img width="274" alt="FLAVI_Asset" src="https://github.com/Ditean/rowi-dermatosis/assets/44688281/9a67f464-f95d-4cce-89bd-a1e2f951e59d">](Alignments/flaviviridae.tree)
+[<img width="268" alt="CORONA_Asset" src="https://github.com/Ditean/rowi-dermatosis/assets/44688281/cbdce9e5-059e-4dc7-8c6f-0902e7e2c18b">](Alignments/Coronaviridae.tree)
+[<img width="276" alt="FLAVI_Asset" src="https://github.com/Ditean/rowi-dermatosis/assets/44688281/39ea522b-e61e-4bd0-8a58-244a1071616c">](Alignments/picornaviridae.tree)
+
+
 ## Supplementary Table S3
 [Table S3](Supplementary/Supplementary_Table_S3_Summary_table_of_samples_with_Eucoleus_Figure6.xlsx) Summary table of samples with _Eucoleus_ present, including sample metadata and abundance calculations used in Figure 6a.
 
