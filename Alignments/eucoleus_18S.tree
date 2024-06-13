@@ -1,0 +1,137 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=35;
+	taxlabels
+	'EU004821.1_Eucoleus_dispar_'
+	'JX456628.1_Eucoleus_boehmi_Canis_familiaris'
+	'KJ188161.1_Eucoleus_aerophilus_Vulpes_vulpes'
+	'KJ188166.1_Eucoleus_aerophilus_Vulpes_vulpes'
+	'KY488350.1_Eucoleus_sp._1_APM-2017_Erinaceus_europaeus'
+	'LC052380.1_Eucoleus_sp._Toda-2010a_Meles_anakuma'
+	'LC052381.1_Eucoleus_sp._Toda-2010a_Meles_anakuma'
+	'LC052383.2_Eucoleus_sp._Toda-2010b_Meles_anakuma'
+	'LC052384.2_Eucoleus_sp._Toda-2010c_Procyon_lotor'
+	'LC052385.1_Eucoleus_sp._Toda-2010c_Mustela_sibirica'
+	'LC424996.1_Eucoleus_contortus_Anser_cygnoides_domesticus'
+	'LC424997.1_Eucoleus_perforans_Phasianus_colchicus'
+	'LC424998.1_Eucoleus_perforans_Phasianus_colchicus'
+	'LC425001.1_Capillaria_anatis_Gallus_gallus_domesticus'
+	'LC484432.1_Eucoleus_garfiai_Sus_scrofa_leucomystax'
+	'MF599385.1_Eucoleus_aerophilus_Vulpes_vulpes'
+	'MT678491.1_Capillaria_sp._50062-1_Apteryx_rowi'
+	'MT678492.1_Capillaria_sp._50062-2_Apteryx_rowi'
+	'MT678493.1_Capillaria_sp._50062-3_Apteryx_rowi'
+	'MT678494.1_Capillaria_sp._P13015609-1_Apteryx_rowi'
+	'MT678495.1_Capillaria_sp._P13015819_Apteryx_rowi'
+	'MT678496.1_Capillaria_sp._50113-5_Apteryx_rowi'
+	'MT678497.1_Capillaria_sp._52481_Apteryx_rowi'
+	'MT678498.1_Capillaria_sp._56782_Apteryx_rowi'
+	'MT678499.1_Capillaria_sp._40753_Circus_approximans'
+	'MT678500.1_Capillaria_sp._37340-C_Circus_approximans'
+	'MT678501.1_Capillaria_sp._34402_Circus_approximans'
+	'MT678502.1_Capillaria_sp._34265-A_Circus_approximans'
+	'MT678503.1_Capillaria_sp._34049-D_Circus_approximans'
+	'MT678504.1_Capillaria_sp._33538-A_Circus_approximans'
+	'MT678505.1_Capillaria_sp._33315-C_Circus_approximans'
+	'MT678506.1_Capillaria_sp._33142-C_Circus_approximans'
+	'MW709573.1_Eucoleus_aerophilus_Vulpes_vulpes__red_fox_'
+	'MW709574.1_Capillaria_sp._cat-2018_Felis_catus__domestic_cat_'
+	'PK31.sorted_-_LC424998_consensus_sequence'[&!name="Eucoleus apteryx rowi"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('LC425001.1_Capillaria_anatis_Gallus_gallus_domesticus':0.116877,(('PK31.sorted_-_LC424998_consensus_sequence':0.036565,('LC424998.1_Eucoleus_perforans_Phasianus_colchicus':0.002243,'LC424997.1_Eucoleus_perforans_Phasianus_colchicus':5.41E-4)[&label="100/99"]:0.016443)[&label="38.1/42"]:0.002894,(((((((((((((((('KJ188161.1_Eucoleus_aerophilus_Vulpes_vulpes':2.0E-6,'MT678500.1_Capillaria_sp._37340-C_Circus_approximans':0.002174)[&label="0/78"]:0.001917,('MT678499.1_Capillaria_sp._40753_Circus_approximans':2.0E-6,'MF599385.1_Eucoleus_aerophilus_Vulpes_vulpes':0.001713)[&label="0/23"]:2.0E-6)[&label="0/16"]:1.0E-6,'KJ188166.1_Eucoleus_aerophilus_Vulpes_vulpes':2.0E-6)[&label="0/16"]:1.0E-6,'MW709573.1_Eucoleus_aerophilus_Vulpes_vulpes__red_fox_':2.0E-6)[&label="0/22"]:9.27E-4,'MT678495.1_Capillaria_sp._P13015819_Apteryx_rowi':2.0E-6)[&label="0/4"]:3.0E-6,((((('MT678492.1_Capillaria_sp._50062-2_Apteryx_rowi':0.0,'MT678497.1_Capillaria_sp._52481_Apteryx_rowi':0.0):0.0,'MT678494.1_Capillaria_sp._P13015609-1_Apteryx_rowi':0.0):0.0,'MT678502.1_Capillaria_sp._34265-A_Circus_approximans':0.0):0.0,'MT678496.1_Capillaria_sp._50113-5_Apteryx_rowi':0.0):0.0,'MT678498.1_Capillaria_sp._56782_Apteryx_rowi':0.0):2.0E-6)[&label="0/7"]:2.0E-6,'MW709574.1_Capillaria_sp._cat-2018_Felis_catus__domestic_cat_':0.005599)[&label="25.7/12"]:0.00134,'LC052385.1_Eucoleus_sp._Toda-2010c_Mustela_sibirica':0.00113)[&label="0/5"]:2.0E-6,'MT678501.1_Capillaria_sp._34402_Circus_approximans':2.0E-6)[&label="0/3"]:2.0E-6,'MT678491.1_Capillaria_sp._50062-1_Apteryx_rowi':2.0E-6)[&label="0/4"]:1.0E-6,'MT678493.1_Capillaria_sp._50062-3_Apteryx_rowi':2.0E-6)[&label="0/2"]:2.0E-6,'MT678504.1_Capillaria_sp._33538-A_Circus_approximans':2.0E-6)[&label="0/5"]:0.002159,((('MT678503.1_Capillaria_sp._34049-D_Circus_approximans':0.0,'MT678506.1_Capillaria_sp._33142-C_Circus_approximans':0.0):0.0,'MT678505.1_Capillaria_sp._33315-C_Circus_approximans':0.0):2.0E-6,('JX456628.1_Eucoleus_boehmi_Canis_familiaris':0.003387,'KY488350.1_Eucoleus_sp._1_APM-2017_Erinaceus_europaeus':2.0E-6)[&label="0/38"]:2.0E-6)[&label="0/14"]:0.001955)[&label="86.5/50"]:0.004336,('LC484432.1_Eucoleus_garfiai_Sus_scrofa_leucomystax':0.003599,'LC052384.2_Eucoleus_sp._Toda-2010c_Procyon_lotor':0.003611)[&label="66.6/59"]:0.00219)[&label="96.3/88"]:0.005868,'EU004821.1_Eucoleus_dispar_':0.013255)[&label="93.2/77"]:0.003961,'LC424996.1_Eucoleus_contortus_Anser_cygnoides_domesticus':0.011628)[&label="67.9/56"]:0.002113)[&label="99.8/94"]:0.013471,('LC052383.2_Eucoleus_sp._Toda-2010b_Meles_anakuma':0.01731,('LC052380.1_Eucoleus_sp._Toda-2010a_Meles_anakuma':2.0E-6,'LC052381.1_Eucoleus_sp._Toda-2010a_Meles_anakuma':0.001663)[&label="100/100"]:0.013346)[&label="92/87"]:0.00673);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
