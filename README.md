@@ -33,4 +33,5 @@ Accessions to create phylogenetic trees can be downloaded from the following NCB
 Abundance files and the R Scripts used for the statistical analysis can be found [here](R_analysis).
 
 ### Citation  
-Taylor, J. T., Lee, V., Dearlove, T., Jolly, M., Wierenga, J. R., Dubrulle, J., Hodgkinson-Bean, J., Hunter, S., Gartrell, B. D., Morgan, K. J., McInnes, K., Holmes, E. C., & Geoghegan, J. L. (2024). A metagenomic investigation into Apteryx rowi dermatosis identifies multiple viruses and a novel species of nematode. _**Journal Pending**_, X(X). _**DOI Pending**_ 
+Jordan T. Taylor, Vivian Lee, Tracey Dearlove, Megan Jolly, Janelle R. Wierenga, Jeremy Dubrulle, James Hodgkinson-Bean, Stuart Hunter, Brett Gartrell, Kerri Morgan, Kate McInnes, Nigel French, Edward C. Holmes, Jemma L. Geoghegan; A Metagenomic Investigation into _Apteryx rowi_ Dermatosis Identifies Multiple Novel Viruses and a Highly Abundant Nematode. _**J Wildl Dis**_ 2025; doi: <br />
+https://doi.org/10.7589/JWD-D-24-00115. 
